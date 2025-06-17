@@ -35,7 +35,7 @@ namespace RAG_Console.Services
 
 
                 /// 符合的話回傳他自己的apiKey
-                return (true, "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");
+                return (true, "hisOwnApiKey");
             }
             catch (Exception ex)
             {
