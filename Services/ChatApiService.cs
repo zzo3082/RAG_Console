@@ -55,7 +55,7 @@ namespace RAG_Console.Services
             //chatHistory.AddMessage(AuthorRole.System, "你是教授");
 
             /// 額外資訊 可以是json字串
-            chatHistory.AddMessage(AuthorRole.Tool, "{  \"漢神DB的連線字串\": \"hanshin.db.connect\",  \"AIA DB的連線字串\": \"aia.db.connect\"}");
+            chatHistory.AddMessage(AuthorRole.Tool, "{  \"a公司DB的連線字串\": \"a.db.connect\",  \"b公司DB的連線字串\": \"b.db.connect\"}");
 
             while (true)
             {
